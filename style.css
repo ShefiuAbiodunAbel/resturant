@@ -125,21 +125,22 @@ header .bg .from p{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    margin: 15px 0;
+    flex-wrap: wrap;
+    padding: 15px;
     background-color: lightgray;
     color: white;
-    height: 100vh;
 }
 .ourMenu h1{
     color: black;
-    margin-bottom: 35px;
+    text-align: center;
 }
 .ourMenu .btn{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 60%;
+    margin: 15px auto;
+    margin-bottom: 25px;
 }
 .ourMenu .btn button{
     padding: 15px;
@@ -168,19 +169,17 @@ header .bg .from p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 15px;
     width: 60%;
-    margin: 35px 0;
     padding: 0 50px;
     width: 100%;
-    overflow: hidden;
 }
 .ourMenu .chicken figure{
     text-align: center;
     font-size: 18px;
     border: 2px solid gray;
     border-radius: 5px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .ourMenu .chicken figure figcaption{
     padding: 10px;
@@ -293,6 +292,9 @@ footer h2 , h4{
     .ourMenu .btn button{
         width: 100%;
         margin: 10px;
+    }
+    .ourMenu .chicken{
+        flex-direction: column;
     }
     
 }

@@ -85,4 +85,7 @@ form .checkpa #checkPassword:hover{
         width: 460px;
         padding-right: 50px;
     }
+    footer{
+        max-width: 100%;
+    }
 }
