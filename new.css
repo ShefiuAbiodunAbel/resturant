@@ -1,0 +1,39 @@
+.our{
+    text-align: center;
+}
+.our button{
+    
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 25px;
+}
+
+.dec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.dec figure{
+    width: 350px;
+    border: 2px solid black;
+    margin: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgb(78, 74, 82);
+    color: white;
+}
+.dec figure h2{
+    margin-bottom: 10px;
+}
+.dec figure img{
+    width: inherit;
+}
+.dec figure figcaption{
+    padding: 15px;
+}

@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+}
+form{
+    background-color: rgb(196, 196, 196);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    overflow: hidden;
+}
+form h1{
+    color: white;
+    padding: 10px;
+}
+form input{
+    padding: 15px;
+    width: 400px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+form button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+form button:hover, input:hover{
+    box-shadow: 0 0 10px black;
+}
+form .checkpa{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+form .checkpa #passWord{
+    width: 400px;
+}
+form .checkpa #checkPassword{
+    width: 25px;
+    height: 50px;
+    margin-left: 10px;
+}
+form .checkpa #checkPassword:hover{
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 500px){
+    form{
+        width: 460px;
+        padding-right: 50px;
+    }
+}
